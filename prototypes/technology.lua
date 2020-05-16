@@ -16,7 +16,7 @@ data:extend(
     {
         type = "technology",
         name = "void-works",
-        icon = "__Void-Works__/graphics/research/void.png",
+        icon = "__Void-Works__/graphics/technology/void.png",
         icon_size = 128,
         prerequisites = {
             "fluid-handling",
