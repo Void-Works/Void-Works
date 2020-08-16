@@ -1,12 +1,11 @@
-voidTint =
-{
+local voidTint = {
     r = settings.startup["tint-r"].value,
     g = settings.startup["tint-g"].value,
     b = settings.startup["tint-b"].value,
     a = 1
 }
 
-function tintPictures(pictures, tint)
+local function tintPictures(pictures, tint)
     for _, picture in pairs(pictures) do
         picture.tint = tint;
         if picture.hr_version then
@@ -31,9 +30,12 @@ void_chest.order = "a[items]-c[void-chest]"
 void_chest.erase_contents_when_mined = true
 void_chest.logistic_mode = nil
 void_chest.gui_mode = "none" -- all, none, admins
-void_chest.inventory_size = 5
+void_chest.inventory_size = settings.startup["slots"].value
 void_chest.circuit_wire_max_distance = 0
 void_chest.enable_inventory_bar = false
+void_chest.picture.layers[1].tint = voidTint
+void_chest.picture.layers[1].hr_version.tint = voidTint
+--[[
 void_chest.picture.layers =
 {
     {
@@ -78,6 +80,7 @@ void_chest.picture.layers =
         width = 56
     },
 }
+--]]
 
 data:extend({
     void_pipe,

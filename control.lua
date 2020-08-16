@@ -1,4 +1,4 @@
-function processPipes()
+local function processPipes()
     if global.pipes ~= nil then
         for k,pipe in pairs(global.pipes) do
             if pipe.valid then
@@ -17,7 +17,7 @@ script.on_event({defines.events.on_tick}, function ()
     processPipes()
 end)
 
-function createEntity(entity)
+local function createEntity(entity)
     if entity.name == "void-chest" then
         entity.infinity_container_filters = {}
         entity.remove_unfiltered_items = true
@@ -50,7 +50,7 @@ do
     local function init_chests()
         global.VoidChests = nil
         for _, surface in pairs(game.surfaces) do
-            chests = surface.find_entities_filtered {
+            local chests = surface.find_entities_filtered {
                 name = "void-chest",
             }
             for _, chest in pairs(chests) do
@@ -62,7 +62,7 @@ do
     script.on_init(function()
         init_chests()
     end)
-    script.on_configuration_changed(function(data)
+    script.on_configuration_changed(function()
         init_chests()
     end)
 end

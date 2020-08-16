@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020-08-16
+
+  Changed:
+    - Internal code cleanup
+    - Matched mod version numbering to game client
+    - Factorio version 1.0.0 Update
+  Bug Fix:
+    - Fixed startup setting "Void Chest Slots" not changing the slot count of the chest.
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2020-02-28
 
@@ -10,7 +21,7 @@ Date: 2020-02-28
 Version: 0.1.1
 Date: 2020-02-28
 
-  Update:
+  Changed:
     - Update for 0.18
 
 ---------------------------------------------------------------------------------------------------

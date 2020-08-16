@@ -1,10 +1,11 @@
 {
   "name": "Void-Works",
-  "version": "0.1.2",
+  "version": "1.0.0",
+  "factorio_version": "1.0",
   "title": "Void Works",
   "author": "JDOGG",
   "homepage": "https://github.com/Void-Works/Void-Works",
-  "factorio_version": "0.18",
+  "contact": "https://github.com/Void-Works/Void-Works/issues",
   "dependencies": ["base >= 0.17.0"],
   "description": "Void All The Things!  Provides a void pipe and void chest to eliminate all your undesirables."
 }

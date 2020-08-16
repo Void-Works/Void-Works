@@ -1,3 +1,10 @@
+local voidTint = {
+    r = settings.startup["tint-r"].value,
+    g = settings.startup["tint-g"].value,
+    b = settings.startup["tint-b"].value,
+    a = 1
+}
+
 local void_pipe = table.deepcopy(data.raw.item["pipe"])
 void_pipe.name = "void-pipe"
 void_pipe.place_result = "void-pipe"
