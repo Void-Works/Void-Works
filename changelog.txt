@@ -1,3 +1,8 @@
+Version: 1.1.0
+Date: 2021-05-06
+
+  Changed:
+    - Factorio version 1.1.0 Update
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2020-08-16
@@ -8,7 +13,6 @@ Date: 2020-08-16
     - Factorio version 1.0.0 Update
   Bug Fix:
     - Fixed startup setting "Void Chest Slots" not changing the slot count of the chest.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2020-02-28
@@ -16,14 +20,12 @@ Date: 2020-02-28
   Bug Fix:
     - Fixed Void pipe not functioning with construction drones mod when placed by the
     construction drones.
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2020-02-28
 
   Changed:
     - Update for 0.18
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2019-03-27
