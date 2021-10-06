@@ -13,7 +13,7 @@ local function processPipes()
     end
 end
 
-script.on_event({defines.events.on_tick}, function ()
+script.on_nth_tick(120, function ()
     processPipes()
 end)
 
