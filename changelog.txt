@@ -1,3 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2021-10-06
+
+  Changed:
+    - Void Pipes have higher volume and are purged less often (every 120 ticks)
+    - Void Pipes now work with Space Exploration & are placeable in Space
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2021-05-06
 
@@ -18,8 +26,7 @@ Version: 0.1.2
 Date: 2020-02-28
 
   Bug Fix:
-    - Fixed Void pipe not functioning with construction drones mod when placed by the
-    construction drones.
+    - Fixed Void pipe not functioning with construction drones mod when placed by the construction drones.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2020-02-28

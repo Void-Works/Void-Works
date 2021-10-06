@@ -19,6 +19,8 @@ void_pipe.type = "pipe"
 void_pipe.name = "void-pipe"
 void_pipe.minable.result = "void-pipe"
 void_pipe.fluid_box.height = 1
+void_pipe.fluid_box.base_area = 2500
+void_pipe.se_allow_in_space = true
 void_pipe.pictures = table.deepcopy(data.raw["pipe"]["pipe"].pictures)
 tintPictures(void_pipe.pictures, voidTint)
 
